@@ -1,0 +1,47 @@
+// TODO: set state on client from server
+// SEE: Full Stack Redux: https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html
+// TODO: incorporate testing (mocha, chai) on client
+// TODO: set initial state from server one reducer at a time? (finish all reducers)
+// TODO: decide on a rendering engine: plain DOM, Tweenjs, Crafty, or Stage
+// TODO: make it sort-of presentable at every stage
+// TODO: make sprinter move based on swipe angle (changing lanes if necessary)
+// TODO: use sprinter inputs as redux actions
+// TODO: scale riders to fit same number on all screens?
+// TODO: make TeamController
+// TODO: make CourseViewer
+// TODO: make RiderController
+// TODO: make ClimbViewer
+// TODO: make TTViewer
+// TODO: get data from node.js server
+// TODO: integrate touch controls (and emulation)
+// TODO: display zoomed in rider "map" or just controls?
+
+## TO-DO
+* What are the details of **this.props.children**?
+* Why is **this.props.key** not in **this.props**?
+* What's the best way to use object-orientation in render and update functions (rather than a lot of manual state setting)?
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+// DONE: populate card list with actual data
+// DONE: delay adding Dylan
+// DONE: come up with the shape of the state object [more or less]
+// DONE: make routes for: player control, race central
+// DONE: review (most recent) React course
+// DONE: couldn't find a better way to get rid of the linter error for JSX requiring JSX than the comment: /*eslint-disable react/react-in-jsx-scope*/
+// DONE: make SprintViewer
+// DONE: show rider name in RiderView
+// DONE: make buttons work, react-style
+// DONE: in SprintView, only show rider controls for YOUR CURRENT rider (can only control 1 at a time)
+// DONE: make SprintView focus on ACTIVE RIDER
+// DONE: make SprintView center based on window dimensions
+// DONE: try the new-style react createRef
+// DONE: set z-index of sprinting riders based on lane [sorted rendering order instead]
+// DONE: once comfortable with react, implement redux (so new rider shows up after 1 second)
+// DONE: change SprintView to functional component? [nope, need lifecycle events and refs]
+// DONE: redux: make ride/left/faster work with state
+// DONE: add UI clicks, etc. to practice redux actions
+// DONE: integrate sockets
+// DONE: figure out redux-async-initial-state
+// DONE: make a server to send out time and position updates
+// DONE: redo the server setup so it's ES6 (and Node... use the tutorial blog as guide?)
+// DONE: add a redux store to the server

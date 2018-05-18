@@ -1,0 +1,4 @@
+## TO-DO
+* What are the details of **this.props.children**?
+* Why is **this.props.key** not in **this.props**?
+* What's the best way to use object-orientation in render and update functions (rather than a lot of manual state setting)?

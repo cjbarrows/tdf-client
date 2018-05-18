@@ -1,0 +1,40 @@
+html, body {
+	margin: 10px;
+}
+
+.rider-card {
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+
+	img {
+		width: 150px;
+		filter: drop-shadow(2px 4px 4px #444);
+	}
+
+	#effort-level {
+		position: absolute;
+		top: 45px;
+		right: 25px;
+
+		color: yellow;
+		text-align: right;
+	}
+
+	.speedControls {
+		text-align: center;
+
+		button {
+			margin: 2px;
+			display: inline;
+		}
+
+		#add-speed {
+			background-color: green;
+		}
+
+		#subtract-speed {
+			background-color: red;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+.sprint-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: darkblue; }
+  .sprint-view .centerPoint {
+    position: absolute;
+    transform: translate(-50%, -50%); }
+  .sprint-view img {
+    pointer-events: none; }
+  .sprint-view .controller-button {
+    position: absolute;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: none;
+    background-color: #a5d2a2; }
+  .sprint-view #moveLeft {
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%); }
+  .sprint-view #moveRight {
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%); }
+  .sprint-view #goFaster {
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%); }
+  .sprint-view .riderName {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic; }
+
+/*# sourceMappingURL=SprintView.css.map */

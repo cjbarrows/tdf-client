@@ -1,0 +1,71 @@
+{
+	"allRiders": [
+		{
+			"number": 1,
+			"name": "Chris Froome",
+			"sprintSpeed": 48,
+			"distance": 10100,
+			"lane": 0
+		},
+		{
+			"number": 2,
+			"name": "Romain Bardet",
+			"sprintSpeed": 42,
+			"distance": 10098,
+			"lane": 0
+		},
+		{
+			"number": 3,
+			"name": "Peter Sagan",
+			"sprintSpeed": 88,
+			"distance": 10094,
+			"lane": -1
+		}
+	],
+	"teams": [
+		{
+			"id": "1",
+			"name": "Katusha",
+			"riders": [1, 2]
+		},
+		{
+			"id": "2",
+			"name": "Thirsty-Kombucha",
+			"riders": [3, 4]
+		}
+	],
+	"course": [
+		{
+			"id": 2,
+			"name": "Stage 2",
+			"profile": [
+				5, 0,
+				10, 2,
+				5, 0,
+				10, -2,
+				25, 0,
+				10, 8,
+				2, 14,
+				16, -6,
+				20, 0
+			]
+		}
+	],
+	"raceTime": 219,
+	"activeRider": 1,
+	"results": [
+		{
+			"id": 2,
+			"riders": [
+				{
+					"number": 1,
+					"time": 101
+				},
+				{
+					"number": 2,
+					"time": 101
+				}
+			]
+		}
+	]
+}

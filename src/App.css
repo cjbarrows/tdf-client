@@ -1,0 +1,27 @@
+html, body {
+  margin: 10px; }
+
+.rider-card {
+  display: inline-block;
+  padding: 10px;
+  position: relative; }
+  .rider-card img {
+    width: 150px;
+    filter: drop-shadow(2px 4px 4px #444); }
+  .rider-card #effort-level {
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    color: yellow;
+    text-align: right; }
+  .rider-card .speedControls {
+    text-align: center; }
+    .rider-card .speedControls button {
+      margin: 2px;
+      display: inline; }
+    .rider-card .speedControls #add-speed {
+      background-color: green; }
+    .rider-card .speedControls #subtract-speed {
+      background-color: red; }
+
+/*# sourceMappingURL=App.css.map */
